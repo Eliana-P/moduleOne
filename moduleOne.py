@@ -31,8 +31,6 @@ print(f"Average User Rating for Fiction books: {avg_fiction_rating}")
 print(f"Average User Rating for Non Fiction books: {avg_non_fiction_rating}")
 
 
-import matplotlib.pyplot as plt
-
 # Create a bar chart comparing the average ratings for Fiction and Non-Fiction
 genres = ['Fiction', 'Non Fiction']
 avg_ratings = [avg_fiction_rating, avg_non_fiction_rating]
